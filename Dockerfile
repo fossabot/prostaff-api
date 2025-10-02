@@ -1,5 +1,5 @@
 # Use Ruby 3.2 Alpine image for smaller size
-FROM ruby:3.2-alpine
+FROM ruby:3.1.7-alpine
 
 # Install system dependencies
 RUN apk add --no-cache \
@@ -13,13 +13,12 @@ RUN apk add --no-cache \
 # Set working directory
 WORKDIR /app
 
-# Copy Gemfile and Gemfile.lock
-COPY Gemfile Gemfile.lock ./
+# Copy Gemfile (and Gemfile.lock if it exists)
+COPY Gemfile ./
+COPY Gemfile.lock* ./
 
 # Install Ruby dependencies
-RUN bundle config set --local deployment 'true' && \
-    bundle config set --local without 'development test' && \
-    bundle install --jobs 4 --retry 3
+RUN bundle install --jobs 4 --retry 3
 
 # Copy application code
 COPY . .
