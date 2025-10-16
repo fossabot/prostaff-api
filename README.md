@@ -4,6 +4,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-blue.svg?logo=postgresql)](https://www.postgresql.org/)
 [![Redis](https://img.shields.io/badge/Redis-6+-red.svg?logo=redis)](https://redis.io/)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FBulletdev%2Fprostaff-api.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FBulletdev%2Fprostaff-api?ref=badge_shield)
 
 # ProStaff API
 
@@ -464,3 +465,5 @@ This work is licensed under a
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FBulletdev%2Fprostaff-api.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FBulletdev%2Fprostaff-api?ref=badge_large)
